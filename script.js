@@ -1,8 +1,12 @@
 $(document).ready(function(){
 
 	var url = window.location.hostname;
-	var gh = "https://hootalex.github.io/chrome-extension/audio/";
+	var path = "https://hootalex.github.io/chrome-extension/audio/";
+	var audio = "<audio src="+path+url+".mp3></audio>";
 
-$("body").prepend("<audio autoplay src="+gh+url+".mp3></audio>");
+
+
+$("body").append(audio);
+$(audio).attr('autoplay','autoplay');
 
 	});
