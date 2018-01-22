@@ -1,7 +1,7 @@
 {
-  "name": "A demo",
-  "description": "An example chrome extension that injects buttons using jQuery",
-  "version": "0.1.0",
+  "name": "Website BGM",
+  "description": "An helpful chrome extension that plays a unique welcome song for every website you visit",
+  "version": "1.0",
   "content_scripts": [
     {
       "matches": ["https://*/*", "http://*/*"],
